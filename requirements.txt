@@ -10,3 +10,5 @@ fpdf2
 fpdf
 folium
 streamlit-folium
+streamlit-js-eval
+streamlit-autorefresh
