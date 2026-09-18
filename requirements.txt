@@ -9,5 +9,4 @@ scikit-learn
 fpdf2
 fpdf
 folium
-st_folium
-streamlit_folium
+streamlit-folium
