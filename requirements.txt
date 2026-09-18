@@ -8,3 +8,4 @@ ultralytics
 scikit-learn
 fpdf2
 fpdf
+folium
