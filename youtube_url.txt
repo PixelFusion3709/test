@@ -1,0 +1,1 @@
+javascript:(function(){const links=[...document.querySelectorAll('a')].map(a=>a.href).filter(h=>h.includes('watch?v=')).map(h=>h.split('&')[0]).filter((v,i,arr)=>arr.indexOf(v)===i);navigator.clipboard.writeText(links.join('\n')).then(()=>alert('클립보드에 복사 되었습니다! (총 '+links.length+'개)'));})();
